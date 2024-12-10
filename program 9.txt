@@ -1,43 +1,32 @@
-// write the c program toread an integer value as input from the user and find the count of digit present in that number
- 
+//write  a c program to print the reverse user number
+
 #include<stdio.h>
 
-int main(){
+int main()
+
+{
     
 int num;
-    
-int even_sum=0;
-    
-int odd_sum=0;
+  
+  printf("enter the integer value:");
+ 
+   scanf("%d",&num);
    
-printf("enter  the value of num ;");
+ for(int i=1;i<=num;i++)
    
- scanf("%d",&num);
-    
-for(int i=1;i<=num;i++)
-    
-{
-        
-if(i%2==0)
-        
-{
-            
-even_sum=even_sum+i;
+ {
        
- }
-else
+ for(int j=1;j<=i;j++)
        
  {
-           
- odd_sum=odd_sum+i;
-          
-}
-   
- }
             
+printf("%c",(64+j));
+    
+    }
        
-printf("even sum: %d \n",even_sum);
-      
- printf("odd sum : %d \n",odd_sum);
+ printf("\n");
    
  }
+}
+        
+    

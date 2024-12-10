@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+ 
+   int num;144;
+ 
+   int*pointer=&num;
+  
+  printf("num=%d \n",num);
+   
+ //accessing the pointer addres
+ 
+   printf("num=%p \n",num);
+   
+ printf("pointer=%p",pointer);
+
+}
