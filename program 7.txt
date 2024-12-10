@@ -1,32 +1,23 @@
-//write  a c program to print the reverse user number
+// Online C compiler to run C program online
 
-#include<stdio.h>
+#include <stdio.h>
+
 
 int main()
-
-{
+ {
     
 int num;
   
-  printf("enter the integer value:");
-   
- scanf("%d",&num);
-   
- for(int i=1;i<=num;i++)
+  printf("enter the value of num :");
+  
+  scanf("%d",&num);
+    
+for(int i=1;i<=num;i++)
    
  {
-       
- for(int j=1;j<=i;j++)
-      
-  {
-            
-printf("%d",i);
-       
- }
-       
- printf("\n");
-  
-  }
-}
         
+printf("%d\n",i*i);
     
+}
+
+}
