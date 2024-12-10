@@ -1,24 +1,35 @@
-// write a c programe to read iinteger value as input from the user and check whether it is two digit number or not
+// write a c program to read for num as integer and print the numbers from 1 to num
 
 #include <stdio.h>
-
-int main() {
+int main()
+{
+   
+ int num;
     
-int n;
+int i=2;
    
- printf("enter the integer\n");
+ printf("enter a   number :");
    
- scanf("%d",&n);
-   
- if((n>=-99 && n<=-10)||(n>=99 && n<=10))
-  
-  printf("the integer is a two digit number ");
-  
-  else
+ scanf("%d",&num);
     
-printf("the integer is not a two digit number");
-
- 
-   return 0;
-
+printf(" odd  numbers from 1 to %d\n",num);
+   
+ //while loop for iteratio
+     
+while(i<=num)
+    {
+     
+   if(i%2==0)
+          
+  printf("%d \n",i);
+         
+   i+=2;
+        
 }
+   
+ }
+
+
+    
+
+    
