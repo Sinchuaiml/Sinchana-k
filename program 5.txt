@@ -1,24 +1,32 @@
-// write a c programe to read iinteger value as input from the user and check whether it is two digit number or not
+//write  a c program to print the reverse user number
 
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    
-int n;
+int main()
+
+{
    
- printf("enter the integer\n");
+ int num;
    
- scanf("%d",&n);
-   
- if((n>=-99 && n<=-10)||(n>=99 && n<=10))
+ printf("enter the integer value:");
   
-  printf("the integer is a two digit number ");
-  
-  else
-    
-printf("the integer is not a two digit number");
-
- 
-   return 0;
-
+  scanf("%d",&num);
+   
+ for(int i=1;i<=num;i++)
+   
+ {
+       
+ for(int j=1;j<=num;j++)
+      
+  {
+           
+ printf("%c ",(64+i));
+     
+   }
+       
+ printf("\n");
+   
+ }
 }
+        
+    

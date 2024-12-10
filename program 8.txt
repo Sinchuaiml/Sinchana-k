@@ -1,43 +1,32 @@
-// writw the program to print the number of even and odd numbers present within 1 to n
+//write  a c program to print the reverse user number
 
 #include<stdio.h>
 
-int main(){
+int main()
+
+{
     
 int num;
    
- int even_count=0;
-    
-int odd_count=0;
-    
-printf("enter  the value of num ;");
+ printf("enter the integer value:");
+  
+  scanf("%d",&num);
    
- scanf("%d",&num);
-    
-for(int i=1;i<=num;i++)
-    
-{
-        
-if(i%2==0)
-        
-{
-            
-even_count++;
-       
- }
-else
-       
+ for(int i=1;i<=num;i++)
+   
  {
+        
+for(int j=1;j<=i;j++)
+      
+  {
            
- odd_count++;
-          
+
+ printf("%d",j);
+      
+  }
+        
+printf("\n");
+    }
 }
-   
- }
-            
-      
- printf("even count: %d \n",even_count);
-      
- printf("odd count : %d \n",odd_count);
-   
- }
+        
+    

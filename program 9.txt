@@ -1,25 +1,32 @@
-// write a c programe to read the number as input from the user & check whether it is a even or odd number
+//write  a c program to print the reverse user number
 
-#include <stdio.h>
+#include<stdio.h>
 
+int main()
 
-int main() {
+{
     
-int n;
-    
-printf("enter the number\n");
+int num;
   
-  scanf("%d",&n);
+  printf("enter the integer value:");
+ 
+   scanf("%d",&num);
+   
+ for(int i=1;i<=num;i++)
+   
+ {
+       
+ for(int j=1;j<=i;j++)
+       
+ {
+            
+printf("%c",(64+j));
     
-if(n%2==0)
+    }
+       
+ printf("\n");
    
- printf(" even number  ");
-   
- else
-    
-printf("odd number ");
-
-   
- return 0;
-
+ }
 }
+        
+    
