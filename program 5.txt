@@ -1,32 +1,35 @@
-//write  a c program to print the reverse user number
+// write a c program to read for num as integer and print the numbers from 1 to num
 
-#include<stdio.h>
-
+#include <stdio.h>
 int main()
-
 {
    
  int num;
+    
+int i=2;
    
- printf("enter the integer value:");
-  
-  scanf("%d",&num);
+ printf("enter a   number :");
    
- for(int i=1;i<=num;i++)
+ scanf("%d",&num);
+    
+printf(" odd  numbers from 1 to %d\n",num);
    
- {
-       
- for(int j=1;j<=num;j++)
-      
-  {
-           
- printf("%c ",(64+i));
+ //while loop for iteratio
      
-   }
-       
- printf("\n");
+while(i<=num)
+    {
+     
+   if(i%2==0)
+          
+  printf("%d \n",i);
+         
+   i+=2;
+        
+}
    
  }
-}
-        
+
+
+    
+
     
