@@ -1,43 +1,25 @@
-// write the c program toread an integer value as input from the user and find the count of digit present in that number
- 
-#include<stdio.h>
+// write a c programe to read the number as input from the user & check whether it is a even or odd number
 
-int main(){
+#include <stdio.h>
+
+
+int main() {
     
-int num;
+int n;
     
-int even_sum=0;
+printf("enter the number\n");
+  
+  scanf("%d",&n);
     
-int odd_sum=0;
+if(n%2==0)
    
-printf("enter  the value of num ;");
+ printf(" even number  ");
    
- scanf("%d",&num);
+ else
     
-for(int i=1;i<=num;i++)
-    
-{
-        
-if(i%2==0)
-        
-{
-            
-even_sum=even_sum+i;
-       
- }
-else
-       
- {
-           
- odd_sum=odd_sum+i;
-          
+printf("odd number ");
+
+   
+ return 0;
+
 }
-   
- }
-            
-       
-printf("even sum: %d \n",even_sum);
-      
- printf("odd sum : %d \n",odd_sum);
-   
- }

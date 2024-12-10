@@ -1,42 +1,26 @@
-// Online C compiler to run C program online
+// write a c programe to read an iinteger value as input from the user and check whether it is a multiple of 3 & 5 or not
 
 #include <stdio.h>
 
 
 int main() {
     
-int num;
+int n;
+   
+ printf("enter the integer\n");
     
-printf("enter the number:");
-   
- scanf("%d\n",&num);
-   
- intprime;
-   
- for(int i=2;i<=num/2;i++)
-   
- {
-        
-isprime=1;
-        
-if(num%i==0);
-      
-  {
-            i
-
-
-
-
-nsprime=0;
-        
-}
-         
- printf("%d isa primenumber",num);
-          
-      
-  }
-    }
+scanf("%d",&n);
     
+if(n%3==0 && n%5==0)
+   
+ printf("the integer is a multiple of 3 & 5 ");
+    
+else
+   
 
-    return 0;
+ printf("the integer is not a multiple of 3&5 ");
+
+  
+  return 0;
+
 }
